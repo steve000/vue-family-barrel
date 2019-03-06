@@ -1,0 +1,54 @@
+{
+    "登入": [{
+            "url": "/portal/login",
+            "desc": "用户登入",
+            "mock": true,
+            "res": {
+                "code": 0,
+                "msg": "xxxx",
+                "data": {
+                    "uname": "@cword(5,8)",
+                    "uid": 9,
+                    "sessionId": "vlfyjfkhglhglihuigylvbhjbjgvhj",
+                    "groupId": 500325,
+                    "groupName": "@cword(4,10)",
+                    "utype": 2,
+                    "mold|1": [0, 1]
+                }
+            }
+        },
+        {
+            "url": "/portal/sys/user/updatePwd",
+            "desc": "修改密码",
+            "mock": true,
+            "res": {
+                "code": 0,
+                "msg": "success",
+                "data": {
+                    "code": 0,
+                    "msg": "success"
+                }
+            }
+        },
+        {
+            "url": "/portal/captcha-image",
+            "desc": "验证码",
+            "mock": true,
+            "res": {
+                "code": 0,
+                "msg": "success",
+                "data": {}
+            }
+        },
+        {
+            "url": "/portal/logout",
+            "desc": "用户登出",
+            "mock": true,
+            "res": {
+                "code": 0,
+                "msg": "退出成功",
+                "data": {}
+            }
+        }
+    ]
+}

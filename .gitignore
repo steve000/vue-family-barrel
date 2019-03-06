@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+/static/
+/index.html
+/src/proxy.js
+/layouts/
+npm-debug.log
+/.vscode
+/asset/

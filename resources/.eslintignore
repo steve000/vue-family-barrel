@@ -1,0 +1,16 @@
+./*.js
+#mock-server/*
+#src/utils/*
+#src/containers/authority/*
+#src/containers/goodsConfig/*
+#src/mutations/*
+#src/plugins/*
+#src/store/*
+# src/utils/*
+#src/components/contract
+#src/components/goods
+#src/components/purchase
+#src/components/stocks
+#src/components/system
+src/utils/lottie_light.js
+src/utils/commonMethod.js
